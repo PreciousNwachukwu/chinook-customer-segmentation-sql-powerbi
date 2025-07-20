@@ -28,8 +28,6 @@ A project that showcases my **SQL** and **Power BI** skills using the **Chinook 
 This project explores customer segmentation using the Chinook music store database. It applies SQL and Power BI to uncover purchasing patterns, segment VIP customers, and analyze geographic revenue trends. The goal is to generate insights that support marketing, retention, and business strategy.
 
 
----
-
 ## Project Objective
 
 Analyze customer types and generate business insights that could help the company identify:
@@ -38,7 +36,6 @@ Analyze customer types and generate business insights that could help the compan
 - Average revenue per customer
 - Business insights from customer types
 
----
 ## Dataset Overview
 
 This project uses the **Chinook Database**, a sample dataset that simulates a digital media store.
@@ -58,8 +55,6 @@ It contains tables related to:
 
 The database mimics real-world business transactions, making it great for practicing SQL queries, sales analysis, and customer behavior insights.
 
----
-
 ## 🛠 Tools Used
 - SQL Server (for querying the Chinook database)
 - Power BI (for creating visuals)
@@ -67,7 +62,6 @@ The database mimics real-world business transactions, making it great for practi
 - Microsoft Word (documentation and report preparation)
 - GitHub (version control and public project sharing)
 
----
 
 ## Business Insights
 
@@ -83,7 +77,6 @@ The database mimics real-world business transactions, making it great for practi
 -  **Buyer Type Distribution**  
   All customers are repeat buyers, which suggests strong loyalty (based on the demo dataset).
 
----
 
 ## Power BI Dashboard
 
@@ -96,7 +89,6 @@ The Power BI Dashboard includes:
 
 ![Power BI Dashboard Screenshot](./PowerBI_Dashboard.png)
 
----
 
 ## SQL Logic Summary
 
@@ -107,8 +99,6 @@ This section explains the core SQL logic used in the analysis:
 - Used `ORDER BY` and `TOP 10` to identify top spenders  
 - Structured reusable logic with **CTEs** (Common Table Expressions) for cleaner, more readable sub-queries
 
-
----
 
 ## ✍️ SQL Queries Used
 
@@ -130,8 +120,8 @@ ORDER BY TotalSpent DESC
 
  <details> 
  <summary><strong>One-Time vs. Repeat Buyers (with Percentage)</strong></summary>
-```sql
 
+ ```sql
 WITH PurchaseCounts AS (
     SELECT Customer.CustomerId, 
            COUNT(*) AS InvoiceCount
@@ -163,8 +153,8 @@ SELECT
 
 <details>
 <summary><strong>Customers per Country + Revenue by Country</strong></summary>
+  
 ```sql
-
 SELECT 
     Customer.Country,
     COUNT(DISTINCT Customer.CustomerId) AS NumberOfCustomers,
@@ -180,8 +170,8 @@ ORDER BY TotalRevenue DESC
 
 <details>
 <summary><strong>Average Revenue per Customer</strong></summary>
+  
 ```sql
-
 SELECT AVG(CustomerRevenue) AS AverageRevenuePerCustomer
 FROM (
     SELECT 
@@ -201,21 +191,18 @@ FROM (
 - Documentation & Communication  
 - Collaboration & Peer Review  
 
----
 
 ## Data Source
 
 - Chinook Music Store Sample Database  
 - [Chinook GitHub Repository](https://github.com/lerocha/chinook-database)
 
----
 
 ## Peer Recommendation
 
 Collaboratively reviewed by **Imoleayo**, who conducted a parallel **Sales & Revenue Analysis**.  
 We exchanged feedback and elevated each other’s SQL logic and business alignment.
 
----
 
 ## Recommendations
 
@@ -224,7 +211,6 @@ We exchanged feedback and elevated each other’s SQL logic and business alignme
 - Consider loyalty programs to boost revenue per customer  
 - Investigate dataset anomalies (e.g., no one-time buyers)  
 
----
 
 ## Conclusion
 
@@ -232,7 +218,6 @@ This project merges **SQL fluency** with real-world business analysis.
 Despite being a demo dataset, it reflects the analytical thinking and storytelling expected in data-driven roles.  
 From dashboard visuals to query logic, this segmentation study uncovers meaningful strategies for customer management and revenue growth.
 
----
 
 ## Files Included
 
@@ -242,7 +227,6 @@ From dashboard visuals to query logic, this segmentation study uncovers meaningf
 | `Customer_Segmentation_Dashboard_Chinook.pbix` | Power BI dashboard file |
 | `README.md` | Project documentation |
 
----
 
 ## Key Competencies Developed
 
@@ -251,9 +235,8 @@ From dashboard visuals to query logic, this segmentation study uncovers meaningf
 - Transformed raw data into strategic visuals using Power BI for stakeholder-ready reporting
 - Engineered dynamic metrics with DAX to enhance dashboard interactivity and analytical depth
 
----
 
 ## Let's Connect
 
-If you like this project or want to collaborate, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/).
+If you like this project or want to collaborate, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/precious-nwachukwu-873b432b7/).
 
