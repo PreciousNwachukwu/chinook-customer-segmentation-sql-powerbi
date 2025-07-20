@@ -87,7 +87,7 @@ The Power BI Dashboard includes:
 - Pie Chart for **Buyer Type Distribution (One-Time vs Repeat Buyers)**
 
 
-![Power BI Dashboard Screenshot](./PowerBI_Dashboard.png)
+![Power BI Dashboard Screenshot](https://github.com/PreciousNwachukwu/chinook-customer-segmentation-sql-powerbi/tree/main)
 
 
 ## SQL Logic Summary
