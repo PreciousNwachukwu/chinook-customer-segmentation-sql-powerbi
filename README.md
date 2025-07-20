@@ -87,7 +87,7 @@ The Power BI Dashboard includes:
 - Pie Chart for **Buyer Type Distribution (One-Time vs Repeat Buyers)**
 
 
-![Power BI Dashboard Screenshot](https://github.com/PreciousNwachukwu/chinook-customer-segmentation-sql-powerbi/tree/main)
+![Power BI Dashboard Screenshot](https://github.com/PreciousNwachukwu/chinook-customer-segmentation-sql-powerbi/blob/main/Chinook%20Customer%20Segmentation%20Dashboard.png?raw=true)
 
 
 ## SQL Logic Summary
@@ -100,7 +100,7 @@ This section explains the core SQL logic used in the analysis:
 - Structured reusable logic with **CTEs** (Common Table Expressions) for cleaner, more readable sub-queries
 
 
-## ✍️ SQL Queries Used
+## SQL Queries Used
 
 <details>
 <summary><strong>Top 10 Highest-Spending Customers</strong></summary>
