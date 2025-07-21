@@ -7,20 +7,17 @@ A project that showcases my **SQL** and **Power BI** skills using the **Chinook 
 1. [Project Overview](#project-overview)  
 2. [Project Objective](#project-objective)  
 3. [Dataset Overview](#dataset-overview)  
-4. [Tools Used](#-tools-used)  
+4. [Tools Used](#tools-used)  
 5. [Business Insights](#business-insights)  
 6. [Power BI Dashboard](#power-bi-dashboard)  
 7. [SQL Logic Summary](#sql-logic-summary)  
-8. [SQL Queries Used](#-sql-queries-used)  
+8. [SQL Queries Used](#sql-queries-used)  
 9. [Skills Demonstrated](#skills-demonstrated)  
 10. [Data Source](#data-source)  
-11. [Peer Recommendation](#peer-recommendation)  
+11. [Acknowledgements](#acknowledgements)  
 12. [Recommendations](#recommendations)  
 13. [Conclusion](#conclusion)  
-14. [Files Included](#files-included)  
-15. [Key Competencies Developed](#key-competencies-developed)  
-16. [Let's Connect](#lets-connect)
-
+14. [Let's Connect](#lets-connect)
 
 
 ## Project Overview
@@ -55,12 +52,12 @@ It contains tables related to:
 
 The database mimics real-world business transactions, making it great for practicing SQL queries, sales analysis, and customer behavior insights.
 
-## 🛠 Tools Used
-- SQL Server (for querying the Chinook database)
-- Power BI (for creating visuals)
-- DAX (for calculated fields)
-- Microsoft Word (documentation and report preparation)
-- GitHub (version control and public project sharing)
+## Tools Used
+
+- **SQL Server** – querying and analysis  
+- **Power BI** – dashboard creation and DAX  
+- **Microsoft Word** – documentation  
+- **GitHub** – project sharing and version control
 
 
 ## Business Insights
@@ -94,7 +91,7 @@ The Power BI Dashboard includes:
 
 This section explains the core SQL logic used in the analysis:
 
-- Used `INNER JOIN` to connect customer, and invoice tables  
+- Used `INNER JOIN` to connect the customer, and invoice tables  
 -  Applied `GROUP BY`, `CASE`, and `SUM()` to calculate total revenue by customer and country  
 - Used `ORDER BY` and `TOP 10` to identify top spenders  
 - Structured reusable logic with **CTEs** (Common Table Expressions) for cleaner, more readable sub-queries
@@ -187,8 +184,8 @@ FROM (
 
 - SQL Query Design & Optimization  
 - Data Analysis & Business Insight Extraction  
-- Power BI Dashboard Creation  
-- Documentation & Communication  
+- Power BI Dashboard Creation
+- Data Documentation & Storytelling  
 - Collaboration & Peer Review  
 
 
@@ -198,11 +195,8 @@ FROM (
 - [Chinook GitHub Repository](https://github.com/lerocha/chinook-database)
 
 
-## Peer Recommendation
-
-Collaboratively reviewed by **Imoleayo**, who conducted a parallel **Sales & Revenue Analysis**.  
-We exchanged feedback and elevated each other’s SQL logic and business alignment.
-
+## Acknowledgements
+Special thanks to Imoleayo, who conducted a parallel Sales & Revenue Analysis. We exchanged feedback and reviewed each other’s SQL logic, which helped elevate the final results.
 
 ## Recommendations
 
@@ -211,32 +205,19 @@ We exchanged feedback and elevated each other’s SQL logic and business alignme
 - Consider loyalty programs to boost revenue per customer  
 - Investigate dataset anomalies (e.g., no one-time buyers)  
 
-
-## Conclusion
-
-This project merges **SQL fluency** with real-world business analysis.  
-Despite being a demo dataset, it reflects the analytical thinking and storytelling expected in data-driven roles.  
-From dashboard visuals to query logic, this segmentation study uncovers meaningful strategies for customer management and revenue growth.
-
-
-## Files Included
-
-| File | Description |
-|------|-------------|
-| `chinook_customer_segmentation.sql` | SQL queries used for analysis |
-| `Customer_Segmentation_Dashboard_Chinook.pbix` | Power BI dashboard file |
-| `README.md` | Project documentation |
-
-
-## Key Competencies Developed
-
-- Designed efficient and readable SQL queries to perform high-impact customer segmentation
-- Extracted and synthesized purchase behavior to uncover actionable business insights
-- Transformed raw data into strategic visuals using Power BI for stakeholder-ready reporting
-- Engineered dynamic metrics with DAX to enhance dashboard interactivity and analytical depth
-
-
 ## Let's Connect
 
 If you like this project or want to collaborate, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/precious-nwachukwu-873b432b7/).
+
+
+## Conclusion
+
+This project blends SQL fluency with real-world business strategy. Though based on a demo dataset, it showcases advanced analytical thinking, data storytelling, and executive-ready visualization core skills for any data-driven role.
+From query design to dashboard delivery, it surfaces actionable strategies that optimize customer engagement and drive revenue growth.
+
+
+
+
+
+
 
