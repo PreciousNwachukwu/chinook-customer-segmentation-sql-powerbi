@@ -91,7 +91,7 @@ The Power BI Dashboard includes:
 
 This section explains the core SQL logic used in the analysis:
 
-- Used `INNER JOIN` to connect the customer, and invoice tables  
+- Used `INNER JOIN` to connect the customer and invoice tables  
 -  Applied `GROUP BY`, `CASE`, and `SUM()` to calculate total revenue by customer and country  
 - Used `ORDER BY` and `TOP 10` to identify top spenders  
 - Structured reusable logic with **CTEs** (Common Table Expressions) for cleaner, more readable sub-queries
@@ -212,7 +212,7 @@ If you like this project or want to collaborate, feel free to reach out or conne
 
 ## Conclusion
 
-This project blends SQL fluency with real-world business strategy. Though based on a demo dataset, it showcases advanced analytical thinking, data storytelling, and executive-ready visualization core skills for any data-driven role.
+This project blends SQL fluency with business strategy. Despite using a demo dataset, it demonstrates strong analytical thinking, data storytelling, and executive-ready visualization core skills for any data-driven role.
 From query design to dashboard delivery, it surfaces actionable strategies that optimize customer engagement and drive revenue growth.
 
 
