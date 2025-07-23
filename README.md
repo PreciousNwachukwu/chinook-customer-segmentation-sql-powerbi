@@ -205,17 +205,15 @@ Special thanks to Imoleayo, who conducted a parallel Sales & Revenue Analysis. W
 - Consider loyalty programs to boost revenue per customer  
 - Investigate dataset anomalies (e.g., no one-time buyers)  
 
-## Let's Connect
-
-If you like this project or want to collaborate, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/precious-nwachukwu-873b432b7/).
-
 
 ## Conclusion
 
 This project blends SQL fluency with business strategy. Despite using a demo dataset, it demonstrates strong analytical thinking, data storytelling, and executive-ready visualization core skills for any data-driven role.
 From query design to dashboard delivery, it surfaces actionable strategies that optimize customer engagement and drive revenue growth.
 
+## Let's Connect
 
+If you like this project or want to collaborate, feel free to reach out or connect with me on [LinkedIn](https://www.linkedin.com/in/precious-nwachukwu-873b432b7/).
 
 
 
